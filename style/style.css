@@ -13,12 +13,13 @@ body{
     background-attachment:local;
     background-origin: initial;
 }
+a{color: rgb(63, 63, 63);}
 #logo{
     text-align: center;
-    margin-top: 5%;
+    
 }
 #logo img{
-    width: 40%;
+    width: 65%;
 }
 #arrow{
     text-align: right;
@@ -170,7 +171,7 @@ button{
 #gameBar1 h1, #gameBar2 h1, #gameBar3 h1, #gameBar4 h1, #gameBar5 h1 , #gameBar6 h1, #gameBar7 h1, #gameBar8 h1{
     margin-top: 5%;
 }
-#gameBar1 h4, #gameBar2 h4, #gameBar3 h4, #gameBar4 h4, #gameBar5 h4 , #gameBar6 h4, #gameBar7 h4, #gameBar8 h4{
+#gameBar1 h6, #gameBar2 h6, #gameBar3 h6, #gameBar4 h6, #gameBar5 h6 , #gameBar6 h6, #gameBar7 h6, #gameBar8 h6{
     margin-left: 10%;
     margin-right: 10%;
     text-align: justify;
