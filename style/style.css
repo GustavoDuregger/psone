@@ -5,6 +5,9 @@
     list-style:none;
     border:0
     }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: white;
     background-attachment:local;
@@ -29,6 +32,15 @@ body{
 #playstationImg{
     position: relative;
     float: left;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    transition: 2s;
+}
+#playstationImg:hover img{
+    -moz-transform: scale(1.005);
+    -webkit-transform: scale(1.005);
+    transform: scale(1.005);
+    opacity: 0.95;
 }
 #text img{
     width: 300px;
@@ -72,4 +84,49 @@ button{
 }
 .card img:hover{
     opacity: 0.7;
+}
+#btn1{
+    position: absolute;
+    float: left;
+    left: 20%;
+    margin-top: -42%;
+}
+#btn1:hover{
+    opacity: 0.5;
+}
+#btn2{
+    position: absolute;
+    float: left;
+    left: 55%;
+    margin-top: -25%;
+}
+#btn2:hover{
+    opacity: 0.5;
+}
+#btn3{
+    position: absolute;
+    float: left;
+    left: 68%;
+    margin-top: -33%;
+}
+#btn3:hover{
+    opacity: 0.5;
+}
+#btn4{
+    position: absolute;
+    float: left;
+    left: 47%;
+    margin-top: -45%;
+}
+#btn4:hover{
+    opacity: 0.5;
+}
+#btn5{
+    position: absolute;
+    float: left;
+    left: 60%;
+    margin-top: -55%;
+}
+#btn5:hover{
+    opacity: 0.5;
 }
