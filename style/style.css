@@ -23,7 +23,7 @@ body{
 #arrow{
     text-align: right;
     margin-right: 3%;
-    margin-top: -3%;
+    margin-top: -5%;
 }
 #topBar img{
     width: 100px;
@@ -129,4 +129,89 @@ button{
 }
 #btn5:hover{
     opacity: 0.5;
+}
+#btn1Text{
+    position: absolute;
+    float: right;
+    text-align: center;
+    background-color: rgb(224, 223, 223);
+    width: 40%;
+    height: 100%;
+    right: 0%;
+    top: 0%;
+}
+#btn1Text img{
+    margin: 5%;
+    margin-top: 10%;
+}
+#btn2Text{
+    position: absolute;
+    float: right;
+    text-align: center;
+    background-color: rgb(224, 223, 223);
+    width: 40%;
+    height: 100%;
+    right: 0%;
+    top: 0%;
+}
+#btn2Text img{
+    margin: 5%;
+    margin-top: 10%;
+}
+
+#btn3Text{
+    position: absolute;
+    float: right;
+    text-align: center;
+    background-color: rgb(224, 223, 223);
+    width: 40%;
+    height: 100%;
+    right: 0%;
+    top: 0%;
+}
+#btn3Text img{
+    margin: 5%;
+    margin-top: 10%;
+}
+#btn4Text{
+    position: absolute;
+    float: right;
+    text-align: center;
+    background-color: rgb(224, 223, 223);
+    width: 40%;
+    height: 100%;
+    right: 0%;
+    top: 0%;
+}
+#btn4Text img{
+    margin: 5%;
+    margin-top: 10%;
+}
+#btn5Text{
+    position: absolute;
+    float: right;
+    text-align: center;
+    background-color: rgb(224, 223, 223);
+    width: 40%;
+    height: 100%;
+    right: 0%;
+    top: 0%;
+}
+#btn4Text img{
+    margin: 5%;
+    margin-top: 10%;
+}
+#btn5Text{
+    position: absolute;
+    float: right;
+    text-align: center;
+    background-color: rgb(224, 223, 223);
+    width: 40%;
+    height: 100%;
+    right: 0%;
+    top: 0%;
+}
+#btn5Text img{
+    margin: 5%;
+    margin-top: 10%;
 }
