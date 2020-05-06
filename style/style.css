@@ -176,3 +176,202 @@ button{
     margin-right: 10%;
     text-align: justify;
 }
+@media only screen and (max-width: 600px) {
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: white;
+    background-attachment:local;
+    background-origin: initial;
+}
+a{color: rgb(63, 63, 63);}
+#logo{
+    text-align: center;
+}
+#logo img{
+    width: 150%;
+    margin-left: -25%;
+}
+
+#arrow{
+    text-align: center;
+    margin-right: 0%;
+    margin-top: 30%;
+    margin-bottom: 5%;
+}
+#topBar img{
+    width: 100px;
+    margin: 10px;
+}
+#playstationImg{
+    position: relative;
+    float: left;
+    -moz-transition: all 2s;
+    -webkit-transition: all 2s;
+    transition: 2s;
+    text-align: left;
+    
+}
+#playstationImg img{
+    width: 100%;
+    text-align: center;
+    
+}
+#playstationImg:hover img{
+    -moz-transform: scale(1.005);
+    -webkit-transform: scale(1.005);
+    transform: scale(1.005);
+    opacity: 0.95;
+}
+#text img{
+    width: 200px;
+    margin-bottom: 20px;
+}
+#text{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 100%;
+}
+h5{
+    font-size: 15px;
+    max-width: 80%;
+}
+button{
+    width: 40%;
+    height: 50px;
+    margin-bottom: 10%;
+}
+.card{
+    text-align: center;
+}
+.card ul li {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: rgba(255, 255, 255, 0.788);
+    width: 20%;
+    color: black;
+    display: inline-block;
+    cursor: pointer;
+    width: 40%;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+  /* On mouse-over, add a deeper shadow */
+.card ul li:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.356);
+}
+
+.card img{
+    width: 
+    100%;
+}
+.card img:hover{
+    opacity: 0.7;
+}
+#btn1{
+    position: absolute;
+    float: left;
+    left: 10%;
+    margin-top: -60%;
+    width: 20%;
+}
+#btn1:hover{
+    opacity: 0.5;
+}
+#btn2{
+    position: absolute;
+    float: left;
+    left: 40%;
+    margin-top: -40%;
+    width: 20%;
+}
+#btn2:hover{
+    opacity: 0.5;
+}
+#btn3{
+    position: absolute;
+    float: left;
+    left: 65%;
+    margin-top: -45%;
+    width: 20%;
+}
+#btn3:hover{
+    opacity: 0.5;
+}
+#btn4{
+    position: absolute;
+    float: left;
+    left: 30%;
+    margin-top: -45%;
+    display: none;
+}
+#btn4:hover{
+    opacity: 0.5;
+}
+#btn5{
+    position: absolute;
+    float: left;
+    left: 50%;
+    margin-top: -70%;
+    width: 20%;
+}
+#btn5:hover{
+    opacity: 0.5;
+}
+#btn1Text, #btn2Text , #btn3Text, #btn4Text, #btn5Text{
+    position: fixed;
+    float: none;
+    text-align: center;
+    background-color: rgba(224, 223, 223);
+    width: 100%;
+    height: 50%;
+  
+    top: 50%;
+}
+#btn1Text img, #btn2Text img, #btn3Text img, #btn4Text img ,#btn5Text  img{
+    margin: 2%;
+    margin-top: 5%;
+    width: 30%;
+}
+
+#textDesc{
+    text-align: justify;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+#gameBar1, #gameBar2, #gameBar3, #gameBar4, #gameBar5, #gameBar6, #gameBar7, #gameBar8{
+    position: absolute;
+    float: right;
+    text-align: center;
+    background-color: rgba(190, 190, 190, 0.637);
+    width: 40%;
+    height: 120%;
+    right: 0%;
+    top: 0%;
+    filter: drop-shadow(8px 8px 100px rgba(0, 0, 0, 0.527));
+}
+
+#gameBar1 img, #gameBar2 img, #gameBar3 img, #gameBar4 img, #gameBar5 img , #gameBar6 img, #gameBar7 img, #gameBar8 img{
+    width: 300px;
+    margin-top: 10%;
+}
+#gameBar1 h1, #gameBar2 h1, #gameBar3 h1, #gameBar4 h1, #gameBar5 h1 , #gameBar6 h1, #gameBar7 h1, #gameBar8 h1{
+    margin-top: 5%;
+}
+#gameBar1 h6, #gameBar2 h6, #gameBar3 h6, #gameBar4 h6, #gameBar5 h6 , #gameBar6 h6, #gameBar7 h6, #gameBar8 h6{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+}
